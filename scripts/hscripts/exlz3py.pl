@@ -88,18 +88,18 @@ foreach $sdpair (@trans){
 }
 print <<"EOT";
         if(s.check() == sat):
-          print "Sat, %d," %(bits),
-          m = s.model()
-          for d in m.decls():
-              print "%s," % (d.name()),
-          print " "
-          print "ASSIGN, %d," %(bits),
-          for d in m.decls():
-              print "%s," % (m[d]),
+             print "Sat, %d," %(bits),
+             m = s.model()
+             for d in m.decls():
+                   print "%s," % (d.name()),
+             print " "
+             print "ASSIGN, %d," %(bits),
+             for d in m.decls():
+                   print "%s," % (m[d]),
         else:
-           print "NotSat, %d," %(bits),
-           print " "
-           sys.exit()
+              print "NotSat, %d," %(bits),
+              print " "
+              sys.exit()
         print " "
         sys.stdout.flush()
 EOT

@@ -12,7 +12,7 @@ for file in $@; do
     base=${file:0:${#file}-6};
     search_dist=30;
     hdon=1;
-    hwon=0;
+    hwon=1;
     hd_val=0;
     hw_val=0;
     mtimeout=1000000;

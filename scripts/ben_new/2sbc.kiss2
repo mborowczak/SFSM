@@ -1,0 +1,12 @@
+.i 2
+.o 3
+.p 8
+.s 4
+1- st st 000
+-1 st wt 001
+1- wt st 010
+-1 wt wnt 011
+1- wnt wt 100
+1- wnt snt 101
+-1 snt wnt 110
+1- snt snt 111

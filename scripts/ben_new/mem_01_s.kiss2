@@ -1,0 +1,25 @@
+1-	st0	st0_n	000
+-1	st0	st1	001
+1-	st0	st2	010
+1-	st0_n	st0	000
+-1	st0_n	st1	001
+1-	st0_n	st2	010
+-1	st1	st1_n	011
+1-	st1	st0	100
+1-	st1	st2	101
+-1	st1_n	st1	011
+1-	st1_n	st0	100
+1-	st1_n	st2	101
+-1	st2	st2_n	110
+1-	st2	st0	111
+-1	st2	st1	111
+-1	st2_n	st2	110
+1-	st2_n	st0	111
+-1	st2_n	st1	111
+.i 2
+.o 3
+.p 18
+.s 6
+
+
+.e 

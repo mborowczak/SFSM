@@ -1,0 +1,13 @@
+.i 2
+.o 3
+.p 9
+.s 3
+1- RD RD 000
+-1 RD ID 001
+1- RD WR 010
+-1 ID ID 011
+1- ID RD 100
+1- ID WR 101
+-1 WR WR 110
+1- WR RD 111
+-1 WR ID 111
